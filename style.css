@@ -247,6 +247,9 @@ copyright {
   .footer-links {
     grid-template-columns: 1fr;
   }
+  .navbar{
+    width: 100%;
+  }
 }
 @media (max-width: 780px) {
   .nav-links {
@@ -259,7 +262,7 @@ copyright {
     display: flex;
     flex-direction: column;
     background: url(./image.png);
-    width: 850px;
+    width: 780px;
     background-position: center;
   }
   .banner_contant{
@@ -267,7 +270,16 @@ copyright {
     font-size: 20px;
   }
   .Hollywood{
-    width: 850px;
+    width: 780px;
 
+  }
+  
+}
+@media (max-width: 880px){
+  .navbar{
+    width: 100%;
+  }
+  .nav-links {
+    display: none;
   }
 }
